@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61D73459191585E0002B932D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D73458191585E0002B932D /* Foundation.framework */; };
+		61D7345B191585E0002B932D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D7345A191585E0002B932D /* CoreGraphics.framework */; };
+		61D7345D191585E0002B932D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D7345C191585E0002B932D /* UIKit.framework */; };
+		61D73463191585E0002B932D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61D73461191585E0002B932D /* InfoPlist.strings */; };
+		61D73465191585E0002B932D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D73464191585E0002B932D /* main.m */; };
+		61D73469191585E1002B932D /* JBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D73468191585E1002B932D /* JBAppDelegate.m */; };
+		61D7346C191585E1002B932D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D7346A191585E1002B932D /* Main.storyboard */; };
+		61D7346F191585E1002B932D /* JBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D7346E191585E1002B932D /* JBViewController.m */; };
+		61D73471191585E1002B932D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D73470191585E1002B932D /* Images.xcassets */; };
+		61D73478191585E2002B932D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D73477191585E2002B932D /* XCTest.framework */; };
+		61D73479191585E2002B932D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D73458191585E0002B932D /* Foundation.framework */; };
+		61D7347A191585E2002B932D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D7345C191585E0002B932D /* UIKit.framework */; };
+		61D73482191585E2002B932D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61D73480191585E2002B932D /* InfoPlist.strings */; };
+		61D73484191585E2002B932D /* BurbankGameHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D73483191585E2002B932D /* BurbankGameHackTests.m */; };
+		61D7348F1915994E002B932D /* JBStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D7348E1915994E002B932D /* JBStartViewController.m */; };
+		61D734981915B863002B932D /* JBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D734971915B863002B932D /* JBModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61D7347B191585E2002B932D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61D7344D191585DF002B932D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D73454191585DF002B932D;
+			remoteInfo = BurbankGameHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61D73455191585DF002B932D /* BurbankGameHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurbankGameHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D73458191585E0002B932D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		61D7345A191585E0002B932D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		61D7345C191585E0002B932D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		61D73460191585E0002B932D /* BurbankGameHack-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BurbankGameHack-Info.plist"; sourceTree = "<group>"; };
+		61D73462191585E0002B932D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61D73464191585E0002B932D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61D73466191585E1002B932D /* BurbankGameHack-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BurbankGameHack-Prefix.pch"; sourceTree = "<group>"; };
+		61D73467191585E1002B932D /* JBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAppDelegate.h; sourceTree = "<group>"; };
+		61D73468191585E1002B932D /* JBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAppDelegate.m; sourceTree = "<group>"; };
+		61D7346B191585E1002B932D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61D7346D191585E1002B932D /* JBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBViewController.h; sourceTree = "<group>"; };
+		61D7346E191585E1002B932D /* JBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBViewController.m; sourceTree = "<group>"; };
+		61D73470191585E1002B932D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		61D73476191585E2002B932D /* BurbankGameHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurbankGameHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D73477191585E2002B932D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		61D7347F191585E2002B932D /* BurbankGameHackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BurbankGameHackTests-Info.plist"; sourceTree = "<group>"; };
+		61D73481191585E2002B932D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		61D73483191585E2002B932D /* BurbankGameHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurbankGameHackTests.m; sourceTree = "<group>"; };
+		61D7348D1915994E002B932D /* JBStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBStartViewController.h; sourceTree = "<group>"; };
+		61D7348E1915994E002B932D /* JBStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBStartViewController.m; sourceTree = "<group>"; };
+		61D734961915B863002B932D /* JBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBModel.h; sourceTree = "<group>"; };
+		61D734971915B863002B932D /* JBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61D73452191585DF002B932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D7345B191585E0002B932D /* CoreGraphics.framework in Frameworks */,
+				61D7345D191585E0002B932D /* UIKit.framework in Frameworks */,
+				61D73459191585E0002B932D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D73473191585E2002B932D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D73478191585E2002B932D /* XCTest.framework in Frameworks */,
+				61D7347A191585E2002B932D /* UIKit.framework in Frameworks */,
+				61D73479191585E2002B932D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61D7344C191585DF002B932D = {
+			isa = PBXGroup;
+			children = (
+				61D734991915B9C0002B932D /* Model */,
+				61D7345E191585E0002B932D /* BurbankGameHack */,
+				61D7347D191585E2002B932D /* BurbankGameHackTests */,
+				61D73457191585DF002B932D /* Frameworks */,
+				61D73456191585DF002B932D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61D73456191585DF002B932D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61D73455191585DF002B932D /* BurbankGameHack.app */,
+				61D73476191585E2002B932D /* BurbankGameHackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61D73457191585DF002B932D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D73458191585E0002B932D /* Foundation.framework */,
+				61D7345A191585E0002B932D /* CoreGraphics.framework */,
+				61D7345C191585E0002B932D /* UIKit.framework */,
+				61D73477191585E2002B932D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		61D7345E191585E0002B932D /* BurbankGameHack */ = {
+			isa = PBXGroup;
+			children = (
+				61D73467191585E1002B932D /* JBAppDelegate.h */,
+				61D73468191585E1002B932D /* JBAppDelegate.m */,
+				61D7346A191585E1002B932D /* Main.storyboard */,
+				61D7348D1915994E002B932D /* JBStartViewController.h */,
+				61D7348E1915994E002B932D /* JBStartViewController.m */,
+				61D7346D191585E1002B932D /* JBViewController.h */,
+				61D7346E191585E1002B932D /* JBViewController.m */,
+				61D73470191585E1002B932D /* Images.xcassets */,
+				61D7345F191585E0002B932D /* Supporting Files */,
+			);
+			path = BurbankGameHack;
+			sourceTree = "<group>";
+		};
+		61D7345F191585E0002B932D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D73460191585E0002B932D /* BurbankGameHack-Info.plist */,
+				61D73461191585E0002B932D /* InfoPlist.strings */,
+				61D73464191585E0002B932D /* main.m */,
+				61D73466191585E1002B932D /* BurbankGameHack-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61D7347D191585E2002B932D /* BurbankGameHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				61D73483191585E2002B932D /* BurbankGameHackTests.m */,
+				61D7347E191585E2002B932D /* Supporting Files */,
+			);
+			path = BurbankGameHackTests;
+			sourceTree = "<group>";
+		};
+		61D7347E191585E2002B932D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D7347F191585E2002B932D /* BurbankGameHackTests-Info.plist */,
+				61D73480191585E2002B932D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61D734991915B9C0002B932D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61D734961915B863002B932D /* JBModel.h */,
+				61D734971915B863002B932D /* JBModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D73454191585DF002B932D /* BurbankGameHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D73487191585E2002B932D /* Build configuration list for PBXNativeTarget "BurbankGameHack" */;
+			buildPhases = (
+				61D73451191585DF002B932D /* Sources */,
+				61D73452191585DF002B932D /* Frameworks */,
+				61D73453191585DF002B932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurbankGameHack;
+			productName = BurbankGameHack;
+			productReference = 61D73455191585DF002B932D /* BurbankGameHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61D73475191585E2002B932D /* BurbankGameHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D7348A191585E2002B932D /* Build configuration list for PBXNativeTarget "BurbankGameHackTests" */;
+			buildPhases = (
+				61D73472191585E2002B932D /* Sources */,
+				61D73473191585E2002B932D /* Frameworks */,
+				61D73474191585E2002B932D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61D7347C191585E2002B932D /* PBXTargetDependency */,
+			);
+			name = BurbankGameHackTests;
+			productName = BurbankGameHackTests;
+			productReference = 61D73476191585E2002B932D /* BurbankGameHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61D7344D191585DF002B932D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Joaquin;
+				TargetAttributes = {
+					61D73475191585E2002B932D = {
+						TestTargetID = 61D73454191585DF002B932D;
+					};
+				};
+			};
+			buildConfigurationList = 61D73450191585DF002B932D /* Build configuration list for PBXProject "BurbankGameHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61D7344C191585DF002B932D;
+			productRefGroup = 61D73456191585DF002B932D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61D73454191585DF002B932D /* BurbankGameHack */,
+				61D73475191585E2002B932D /* BurbankGameHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61D73453191585DF002B932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D73471191585E1002B932D /* Images.xcassets in Resources */,
+				61D73463191585E0002B932D /* InfoPlist.strings in Resources */,
+				61D7346C191585E1002B932D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D73474191585E2002B932D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D73482191585E2002B932D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61D73451191585DF002B932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D73469191585E1002B932D /* JBAppDelegate.m in Sources */,
+				61D7346F191585E1002B932D /* JBViewController.m in Sources */,
+				61D73465191585E0002B932D /* main.m in Sources */,
+				61D7348F1915994E002B932D /* JBStartViewController.m in Sources */,
+				61D734981915B863002B932D /* JBModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61D73472191585E2002B932D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61D73484191585E2002B932D /* BurbankGameHackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61D7347C191585E2002B932D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D73454191585DF002B932D /* BurbankGameHack */;
+			targetProxy = 61D7347B191585E2002B932D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61D73461191585E0002B932D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D73462191585E0002B932D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61D7346A191585E1002B932D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D7346B191585E1002B932D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61D73480191585E2002B932D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61D73481191585E2002B932D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61D73485191585E2002B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61D73486191585E2002B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61D73488191585E2002B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurbankGameHack/BurbankGameHack-Prefix.pch";
+				INFOPLIST_FILE = "BurbankGameHack/BurbankGameHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		61D73489191585E2002B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurbankGameHack/BurbankGameHack-Prefix.pch";
+				INFOPLIST_FILE = "BurbankGameHack/BurbankGameHack-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		61D7348B191585E2002B932D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BurbankGameHack.app/BurbankGameHack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurbankGameHack/BurbankGameHack-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BurbankGameHackTests/BurbankGameHackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		61D7348C191585E2002B932D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BurbankGameHack.app/BurbankGameHack";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurbankGameHack/BurbankGameHack-Prefix.pch";
+				INFOPLIST_FILE = "BurbankGameHackTests/BurbankGameHackTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61D73450191585DF002B932D /* Build configuration list for PBXProject "BurbankGameHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D73485191585E2002B932D /* Debug */,
+				61D73486191585E2002B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61D73487191585E2002B932D /* Build configuration list for PBXNativeTarget "BurbankGameHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D73488191585E2002B932D /* Debug */,
+				61D73489191585E2002B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		61D7348A191585E2002B932D /* Build configuration list for PBXNativeTarget "BurbankGameHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61D7348B191585E2002B932D /* Debug */,
+				61D7348C191585E2002B932D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61D7344D191585DF002B932D /* Project object */;
+}
